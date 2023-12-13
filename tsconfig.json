@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Target latest ECMAScript version
+    "module": "ESNext", // Use ES6+ module syntax
+    "moduleResolution": "node", // Node-style module resolution
+    "esModuleInterop": true, // Enables better interop between ES6+ modules and CommonJS/AMD modules
+    "outDir": "api/dist", // Output directory
+    "strict": true, // Enables all strict type-checking options
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Enforce using the consistent case in filenames
+    "resolveJsonModule": true, // Allow importing JSON files as modules
+    "sourceMap": true, // Generate source map files (helpful for debugging)
+    "jsx": "react", // If you're using React, set JSX to "react". If not, you can omit this.
+    "lib": ["DOM", "ESNext"] // Include DOM and ESNext libraries in the compilation
+  },
+  "exclude": ["node_modules"] // Exclude node_modules from the compilation
+}

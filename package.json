@@ -1,0 +1,25 @@
+{
+  "name": "reactscrape",
+  "version": "1.0.0",
+  "description": "get api calls from website to json format, then generate them into es6 module style api calls",
+  "main": "react.js",
+  "scripts": {
+    "compile": "yarn tsc && yarn prettier --write .",
+    "start": "yarn node api/dist/generateData.js",
+    "build": "yarn node api/dist/generateApi.js"
+  },
+  "type": "module",
+  "author": "antihero",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "prettier": "^3.1.1",
+    "puppeteer": "^21.5.2",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "yarn@4.0.2",
+  "devDependencies": {
+    "@types/node": "^20.10.4"
+  }
+}
