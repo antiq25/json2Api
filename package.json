@@ -4,8 +4,8 @@
   "description": "get api calls from website to json format, then generate them into es6 module style api calls",
   "main": "react.js",
   "scripts": {
-    "compile": "yarn tsc && yarn prettier --write .",
-    "start": "yarn node api/dist/generateData.js",
+    "start": "yarn tsc && yarn prettier --write .",
+    "start-json": "yarn node api/dist/generateData.js",
     "build": "yarn node api/dist/generateApi.js"
   },
   "type": "module",
